@@ -5,8 +5,7 @@
 ### Exporter
 
 There are two ways to create an exporter.
-
-![Exporter](./art/exporter.png)
+ 
 
 #### Create an exporter using the command
 
@@ -109,8 +108,7 @@ return [
 Now you can navigate to `http://your-domain/tools/data-synchronize/export/posts` to export posts.
 
 #### Add exporter to Export/Import Data panel section
-
-![Panel Section](./art/panel-section-1.png)
+ 
 
 To add the exporter to the Export/Import Data panel section, you can use the `beforeRendering` method of
 the `PanelSectionManager` class to register the exporter into the panel section.
@@ -142,5 +140,4 @@ public function boot(): void
 ```
 
 You can see the exporter in the **Export/Import Data** panel section.
-
-![Panel Section](./art/panel-section-2.png)
+ 
