@@ -161,7 +161,7 @@ abstract class Importer
         }
 
         $count = count($rows);
-
+			
         if ($count === 0) {
             $newFileName = pathinfo($fileName, PATHINFO_FILENAME) . '-' . uniqid() . '.' . pathinfo($fileName, PATHINFO_EXTENSION);
 
